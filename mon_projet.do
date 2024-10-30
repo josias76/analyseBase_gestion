@@ -14,4 +14,15 @@
  summarize age salaire experience
 
  
- histogram age
+ /* histogramme de l'age*/
+ 
+ histogram age, percent title("Distribution de l'age des employés")
+ xlabel(25(5)60) ylabel(, angle(vertical))
+ 
+ 
+ 
+ tab age
+ 
+ table age
+ 
+ 
