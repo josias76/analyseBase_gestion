@@ -10,5 +10,8 @@
  /*verification des valeures manquantes*/
  misstable summarize
  
+ /* statistique age salaire experience*/
+ summarize age salaire experience
+
  
- s
+ histogram age
