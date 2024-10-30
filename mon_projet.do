@@ -2,27 +2,12 @@
 
  import excel "C:\Users\Josias Nteme\Desktop\analyseBase_gestion\Base_gestion.xlsx", sheet("Sheet1") firstrow
  
- /* resumé des variables*/
+ sum salaire
  
- describe
- 
- 
- /*verification des valeures manquantes*/
- misstable summarize
- 
- /* statistique age salaire experience*/
- summarize age salaire experience
+ tab salaire
 
  
- /* histogramme de l'age*/
- 
- histogram age, percent title("Distribution de l'age des employés")
- xlabel(25(5)60) ylabel(, angle(vertical))
  
  
- 
- tab age
- 
- table age
- 
- 
+ histogram salaire, percent title("Distribution de salaire des employés")
+ xlabel(2500(500)7000) ylabel(,angle(horinzotal))
